@@ -1,17 +1,3 @@
-CSE332S Lab 5
-Team Name: li_ma_zhang-lab5
-Steve Li, wustlkey: zhaoqi.li
-Xiaowen Ma, wustlkey:maxiaowen
-Claire Zhang, wustlkey: zhangbin
-
-We got approved by Professor Shidal to extend the deadline to the 14th.
-
-[Distribution of Work]
-We wrote all parts of lab 5 together. No person has a major responsibility for writing one part of lab 5.
-
-[Errors]
-One error that we had was that when we were trying to decrease or increase the link count, we directly modified the pointer without dereferencing it. This resulted in odd numbers showing up during our testing. Later we found out that we forgot to dereference the pointer and solved the problem by dereferencing the pointer before increasing or decreasing it.
-
 [Testing 1: all commands except rm]
 
 To test all commands in Lab 5 except rm (rm is tested later with new code in main, see Testing 2), the following code is used in the main:
